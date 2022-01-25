@@ -1,0 +1,52 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.top1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.entire {
+  background-color: white;
+  padding: 30px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.action {
+  display: flex;
+  justify-content: space-evenly;
+}
+.action svg {
+  cursor: pointer;
+}
+.middle {
+  padding-bottom: 45px;
+  padding-top: 20px;
+}
+.middle p {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.middle input {
+  border: 1px solid #80808094;
+  padding: 7px 10px;
+  border-radius: 4px;
+  width: 100%;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+.deletess {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 700px) {
+  .deletess {
+    display: block;
+  }
+  .deletess button {
+    margin-bottom: 10px;
+  }
+}

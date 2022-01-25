@@ -1,0 +1,119 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.top1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.entire {
+  background-color: white;
+  padding: 30px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.action {
+  display: flex;
+  justify-content: space-evenly;
+}
+.action svg {
+  cursor: pointer;
+}
+.create .label {
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+.create .label2 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.create .inputs {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid darkgray;
+}
+.create .inputsText {
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  padding: 6px 10px;
+  width: 100%;
+}
+.create .switch {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+}
+.pagination {
+  justify-content: end;
+  margin-top: 16px;
+}
+.pagination p {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: black;
+}
+.pagination p:hover {
+  color: black !important;
+}
+
+.number {
+  margin: auto;
+}
+.number ul {
+  float: right;
+  margin-top: 35px;
+  list-style: none;
+  margin-bottom: 35px;
+}
+.number ul li {
+  float: left;
+}
+.number ul li a {
+  border: 1px solid #a9a9a94f;
+  padding: 8px 14px;
+  font-size: 17px;
+}
+.number ul li a:focus {
+  outline: none;
+}
+.paginationActive a {
+  background-color: #2f3c54;
+  color: white !important;
+}
+.number ul li a {
+  text-decoration: none;
+}
+.number ul li i {
+  font-size: 13px;
+  padding-left: 3px;
+}
+.create .autoCompletes {
+  border: none;
+  padding: 10px;
+  margin-left: 2px;
+  width: 97%;
+  text-transform: capitalize;
+}
+.deletess {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 1000px) {
+  .create .autoCompletes {
+    width: 92%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .create .switch {
+    width: 100%;
+  }
+  .deletess {
+    display: block;
+  }
+  .deletess button {
+    margin-bottom: 10px;
+  }
+}

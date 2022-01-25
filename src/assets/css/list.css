@@ -1,0 +1,29 @@
+.ss p {
+    font-weight: bold;
+    padding: 4px 35px;
+    color: black;
+    letter-spacing: 1px;
+}
+.ss {
+    background-color: white;
+    margin: 15px;
+    padding: 15px 15px;
+    min-width: 220px;
+    border: 2px solid #303c5026;
+}
+.ss span {
+    color: #303c50;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-left: 35px;
+    letter-spacing: 1px;
+}
+.ss img {
+    width: 140px;
+    height: 120px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.ss .one {
+    padding-bottom: 45px;
+}

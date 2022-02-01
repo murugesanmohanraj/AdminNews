@@ -162,7 +162,6 @@ export default function AllNewsTable({ setDirect, setnewsId }) {
                       height: '100px',
                       overflow: 'hidden',
                       justifyContent: 'center',
-                      display: 'contents',
                     }}
                   >
                     {row.title}
@@ -174,7 +173,6 @@ export default function AllNewsTable({ setDirect, setnewsId }) {
                       height: '100px',
                       overflow: 'hidden',
                       justifyContent: 'center',
-                      display: 'contents',
                     }}
                   >
                     {row.summary}

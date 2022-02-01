@@ -70,6 +70,7 @@ export default function CreateNews({ setDirect }) {
         .get('getAllEditor')
         .then((res) => {
           seteditor(res.data)
+          console.log(res.data)
         })
         .catch((err) => {
           console.error(err.message)

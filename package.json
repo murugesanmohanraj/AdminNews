@@ -1,9 +1,8 @@
 {
-  "homepage": "https://mohanrajmurugasen.github.io/AdminNews",
+  "homepage": ".",
   "name": "@coreui/coreui-free-react-admin-template",
   "version": "next",
   "description": "CoreUI Free React Admin Template",
-  "homepage": ".",
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
   },
@@ -40,6 +39,7 @@
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.60",
     "axios": "^0.25.0",
+    "core-js": "^2.5.7",
     "eslint": "^8.7.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^16.1.0",

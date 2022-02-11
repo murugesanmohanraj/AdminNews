@@ -1,5 +1,5 @@
 import 'react-app-polyfill/stable'
-import 'core-js'
+import 'core-js/es7/reflect'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'

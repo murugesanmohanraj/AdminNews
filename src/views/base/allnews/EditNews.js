@@ -166,17 +166,8 @@ export default function EditNews({ setDirect, newsId }) {
               className="inputs"
               value={title}
               onChange={(e) => settitle(e.target.value)}
+              maxLength={70}
             />
-          </div>
-          <div>
-            <label className="label">Summary</label>
-            <br />
-            <textarea
-              rows="4"
-              className="inputsText"
-              value={summary}
-              onChange={(e) => setsummary(e.target.value)}
-            ></textarea>
           </div>
           <div>
             <label className="label">Description</label>
@@ -188,6 +179,17 @@ export default function EditNews({ setDirect, newsId }) {
               onChange={(e) => setdescription(e.target.value)}
             ></textarea>
           </div>
+          <div>
+            <label className="label">Summary</label>
+            <br />
+            <textarea
+              rows="4"
+              className="inputsText"
+              value={summary}
+              onChange={(e) => setsummary(e.target.value)}
+            ></textarea>
+          </div>
+
           <div>
             <label className="label">News Category</label>
             <br />

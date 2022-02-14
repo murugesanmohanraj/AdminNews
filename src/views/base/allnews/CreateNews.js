@@ -138,17 +138,8 @@ export default function CreateNews({ setDirect }) {
               name="title"
               placeholder="Enter title"
               className="inputs"
+              maxLength={70}
             />
-          </div>
-          <div>
-            <label className="label">Summary</label>
-            <br />
-            <textarea
-              {...register('summary')}
-              name="summary"
-              rows="4"
-              className="inputsText"
-            ></textarea>
           </div>
           <div>
             <label className="label">Description</label>
@@ -156,6 +147,16 @@ export default function CreateNews({ setDirect }) {
             <textarea
               {...register('description')}
               name="description"
+              rows="4"
+              className="inputsText"
+            ></textarea>
+          </div>
+          <div>
+            <label className="label">Summary</label>
+            <br />
+            <textarea
+              {...register('summary')}
+              name="summary"
               rows="4"
               className="inputsText"
             ></textarea>

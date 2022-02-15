@@ -12,6 +12,9 @@ const authAxios = axios.create({
   baseURL: baseURL,
   headers: {
     Authentication: token ? token.token : null,
+    Accept: 'application/json',
+    'Accept-encoding': 'gzip, deflate',
+    'Content-Type': 'application/json',
   },
 })
 
